@@ -1,2 +1,11 @@
-.finger-icon {
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* отменяю точки */
+.list-none {
+  list-style: none;
+}
+
+.nav-site a {
+  color: #212121;
 }
