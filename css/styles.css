@@ -41,8 +41,18 @@ body {
 .nav-contact-info {
   color: var(--text-primary-second);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.02em;
 }
 
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.02em;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--them-colour);
@@ -53,11 +63,6 @@ body {
 }
 
 .head-button {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -65,6 +70,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
+  padding: 10px 35px 10px 35px;
 
   /* текст кнопки */
   align-items: center;
@@ -74,6 +80,7 @@ body {
   color: #ffffff;
 }
 .heading {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
   text-align: center;
@@ -83,6 +90,7 @@ body {
 }
 
 .paragraph-name {
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -150,7 +158,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* page two Portfolio */
+/* !!!!!! page two Portfolio !!!!!!*/
 
 .studio {
   font-size: 26px;
@@ -162,11 +170,20 @@ body {
 
 .nav-link-portfolio {
   color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.02em;
 }
 
 /* button-portfolio! */
 
 .btn {
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  cursor: pointer;
   font-family: Roboto;
   color: #212121;
   cursor: pointer;
@@ -175,7 +192,64 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+/* кнопка 1 */
+.btn-all:hover,
+.btn-all:focus {
+  background: #2196f3;
+  border-radius: 4px;
+}
 
+.btn-all {
+  padding: 6px 22px 6px 22px;
+  background: #f5f4fa;
+}
+
+/* кнопка 2 */
+.btn-web:hover,
+.btn-web:focus {
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.btn-web {
+  padding: 6px 22px 6px 22px;
+  background: #f5f4fa;
+}
+
+/* кнопка 3 */
+.btn-game:hover,
+.btn-game:focus {
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.btn-game {
+  padding: 6px 22px 6px 22px;
+  background: #f5f4fa;
+}
+
+/* кнопка 4 */
+.btn-design:hover,
+.btn-design:focus {
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.btn-design {
+  padding: 6px 22px 6px 22px;
+  background: #f5f4fa;
+}
+/* кнопка 5 */
+.btn-marketing:hover,
+.btn-marketing:focus {
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.btn-marketing {
+  padding: 6px 22px 6px 22px;
+  background: #f5f4fa;
+}
 /* button-portfolio! */
 
 .name-picture {
